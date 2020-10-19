@@ -28,10 +28,10 @@ public class SistemaOperacional{
 
 		String classeJava = System.getProperty("java.class.version");
 		String classeCaminho = System.getProperty("java.class.path");
-		String listaBibliotecas = System.getProperty("java.library.path");
-		String caminhoArquivosTemporarios = System.getProperty("java.io.tmpdir");
 
 		// Dados do Sistema Operacional.
+		String listaBibliotecas = System.getProperty("java.library.path");
+		String caminhoArquivosTemporarios = System.getProperty("java.io.tmpdir");
 		String soDistribuidor = System.getProperty("java.vendor");
 		String soDistribuidorUrl = System.getProperty("java.vendor.url");
 		String so = System.getProperty("os.name");
